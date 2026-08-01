@@ -1,8 +1,27 @@
 aid: relay-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/relay-therapeutics.png
 name: Relay Therapeutics
-description: 'Relay Therapeutics is a company surfaced as a portfolio company of softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Relay Therapeutics is a clinical-stage precision-medicine company in Cambridge,
+  Massachusetts that discovers and develops small-molecule therapeutics for cancer and
+  genetic disease. Its proprietary Dynamo platform combines computational and experimental
+  approaches — motion-based drug discovery, protein-motion simulation, structural biology,
+  and biophysics — to drug targets that have historically been difficult to reach. The
+  company advances a pipeline of oncology and precision-medicine candidates. Relay Therapeutics
+  was surfaced as a portfolio company of SoftBank Vision Fund and added to the API Evangelist
+  network. As a biotechnology / drug-discovery company it publishes no public developer
+  API, SDK, or webhook surface; this profile captures its corporate identity and web
+  properties.'
 url: https://raw.githubusercontent.com/api-evangelist/relay-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +31,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Health Tech
+- Biotechnology
+- Drug Discovery
+- Precision Medicine
+- Oncology
+- Life Sciences
+- Pharmaceuticals
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/relay-therapeutics-domain-security.yml
+- type: Website
+  url: https://relaytx.com
+- type: Blog
+  url: https://ir.relaytx.com/news-events/press-releases
+- type: Pipeline
+  url: https://relaytx.com/pipeline/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
